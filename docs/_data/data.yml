@@ -1,0 +1,182 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: true # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Diego Sogari
+    tagline: Backend Developer
+    avatar: profile.png
+
+    # Sidebar links
+    email: diego.sogari@gmail.com
+    phone: +55 (51) 93619-5924
+    timezone: Brasilia Standard Time (GMT-3)
+    citizenship: 
+    website: diego.sogari.dev
+    linkedin: diegosogari
+    xing: ""
+    github: diegosogari
+    telegram: diegosogari
+    twitter: 'diegosogari'
+    stack-overflow: 4725347/diego-sogari
+    goodreads: 148925320-diego-sogari
+    pdf: cv.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Portuguese
+          level: Native
+        - idiom: English
+          level: Advanced
+        - idiom: French
+          level: Intermediate
+
+    interests:
+      title: Interests
+      info:
+        - item: Cycling
+          link:
+        - item: Fitness
+          link:
+        - item: Reading
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Backend developer with 8+ years of professional experience, having worked
+      in companies of various sizes and domains, such as
+      [HP](https://www.hp.com/us-en/home.html),
+      [Nelogica](https://www.nelogica.com.br/) and
+      [Falker](https://www.falker.com.br/br).
+      Currently working at [Tino](https://tino.com.br/), where I help business
+      clients transform people's lives through technology.
+education:
+    title: Education
+    info:
+      - degree: BSc in Computer Engineering
+        university: Federal University of Rio Grande do Sul (Porto Alegre, Brazil)
+        time: 2007 - 2014
+        details: |
+          Undergraduate degree at Instituto de Informatica da UFRGS
+experiences:
+    title: Experiences
+    info:
+      - role: Software Developer V
+        time: 2020 - 2022
+        company: Nelogica (Porto Alegre, Brazil)
+        details: |
+          Electronic trading systems, R&D • Delphi, gRPC
+            - Enabled the integration of a legacy authentication system with recent technologies,
+              through the design and implementation of an asynchronous gRPC library for Delphi.
+            - Enabled remote risk assessment with an acceptable latency of 2ms, by leading a team of
+              three juniors in the design of a Protobuf-based protocol, collaborating via UML diagrams.
+            - Allowed two large customers to send user account communications with a reasonable
+              delay of 3s and zero failure rate, by designing and implementing a mail merge solution.
+            - Enabled the generation of documentation for Delphi code, by extending an open-source
+              project that converts XML docs into HTML, and integrating this tool into our CI pipelines.
+      - role: Software Developer IV
+        time: 2019 - 2020
+        company: Nelogica (Porto Alegre, Brazil)
+        details: |
+          Market data (MD), Order management system (OMS) • Delphi
+            - Increased the memory usage capacity of OMS services by porting legacy code to 64-bit.
+              15% of instances eventually surpassed the longstanding 4GB limit, requiring up to 19GB.
+            - Enabled the redundancy of OMS services by implementing an egress gateway for financial
+              information exchange. 66 out of 82 production instances later required at least one replica.
+            - Improved the performance of the connection between home brokers and MD services, by
+              designing and developing a WebSocket library in Delphi with support for binary messages.
+      - role: Software Engineer
+        time: '2018'
+        company: HP Inc (Porto Alegre, Brazil)
+        details: |
+          Remote graphics software (RGS) • C++, Qt, CUDA
+            - Fixed dozens of RGS defects, while working in a team practicing the Scrum methodology.
+              Refinement and prioritization of the product backlog were facilitated by US office leaders.
+      - role: Software Developer II
+        time: 2017 - 2018
+        company: DBServer (Porto Alegre, Brazil)
+        details: |
+          Automated teller machine • C++, CEN/XFS
+      - role: Software Developer II
+        time: 2014 - 2017
+        company: Falker (Porto Alegre, Brazil)
+        details: |
+          Precision agriculture system • C++, SQLite, GDAL
+      - role: Software Developer Intern/Junior
+        time: 2017 - 2018
+        company: Nelogica (Porto Alegre, Brazil)
+        details: |
+          Market data feed • Delphi, Microsoft ADO, WSDL
+
+certifications: ""
+  # title: Certifications
+  # list:
+  #   - name: CV Builder
+  #     start: 2020
+  #     end: 2021
+  #     organization: Microsoft
+  #     credentialid: 111-222
+  #     credentialurl: www.google.com
+  #     credentialname: Google
+  #     details: |
+  #       Details about cert. Lorem ipsum dolor sit amet, consectetur 
+  #       adipiscing elit.
+
+projects: ""
+  # title: Projects
+  # intro: >
+  #   You can list your side projects in this
+  #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # assignments:
+  #   - title: Velocity
+  #     link: "#hook"
+  #     tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+oss: ""
+  # title: OSS Contributions
+  # intro: >
+  #   You can list your open source software contributions in this
+  #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # contributions:
+  #   - title: Tempo
+  #     link: "#"
+  #     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+publications: ""
+  # title: Publications
+  # intro: |
+  #   You can list your publications in this section. Lorem ipsum dolor sit
+  #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #   bibendum fringilla a eu lectus.
+  # papers:
+  #   - title: The Art of Computer Programming
+  #     link: "#"
+  #     authors: Donald E. Knuth
+  #     conference: Addison-Wesley, 1968
+
+skills:
+    title: Skills &amp; Proficiency
+    toolset:
+      - name: C/C++
+        level: 95%
+      - name: Delphi
+        level: 95%
+      - name: Golang
+        level: 50%
+      - name: SQL
+        level: 50%
+      - name: Python
+        level: 40%
+      - name: Java
+        level: 30%
+
+footer: >
+  © 2023 Diego Sogari

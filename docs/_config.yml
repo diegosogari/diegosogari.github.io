@@ -1,0 +1,8 @@
+title: Diego Sogari
+description: My Resume
+theme_skin: ceramic
+
+# Build settings
+remote_theme: sharu725/online-cv
+plugins:
+- jekyll-remote-theme
