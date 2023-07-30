@@ -114,53 +114,55 @@ experiences:
         details: |
           Market data feed • Delphi, Microsoft ADO, WSDL
 
-certifications: ""
-  # title: Certifications
-  # list:
-  #   - name: CV Builder
-  #     start: 2020
-  #     end: 2021
-  #     organization: Microsoft
-  #     credentialid: 111-222
-  #     credentialurl: www.google.com
-  #     credentialname: Google
-  #     details: |
-  #       Details about cert. Lorem ipsum dolor sit amet, consectetur 
-  #       adipiscing elit.
+certifications:
+  title: Certifications
+  list:
+    - name: Containers Fundamentals (LFS253)
+      start: 2022
+      end: 2022
+      organization: The Linux Foundation
+      credentialid: 8288fb09-9766-414b-92e5-5046bee82097
+      credentialurl: https://www.credly.com/badges/8288fb09-9766-414b-92e5-5046bee82097
+      credentialname: Credly
+      details: |
+        Earners of the LFS253: Containers Fundamentals badge have a good understanding of container
+        technologies. They are able to do container and image operations with different container
+        runtimes, manage network and storage (volumes) with containers, as well as build and run
+        multi-container applications with Docker and Docker APIs.
 
-projects: ""
-  # title: Projects
+projects:
+  title: Projects
   # intro: >
   #   You can list your side projects in this
   #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  # assignments:
-  #   - title: Velocity
-  #     link: "#hook"
-  #     tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  assignments:
+    - title: Delphi Profiler
+      link: https://github.com/diegosogari/delphi-profiler
+      tagline: A tracing profiler for Delphi.
 
-oss: ""
-  # title: OSS Contributions
+oss:
+  title: OSS Contributions
   # intro: >
   #   You can list your open source software contributions in this
   #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  # contributions:
-  #   - title: Tempo
-  #     link: "#"
-  #     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  contributions:
+    - title: MINGW-packages
+      link: https://github.com/msys2/MINGW-packages/commits/master?author=diegosogari
+      tagline: Package scripts for MinGW-w64 targets to build under MSYS2.
 
-publications: ""
-  # title: Publications
+publications:
+  title: Publications
   # intro: |
   #   You can list your publications in this section. Lorem ipsum dolor sit
   #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
   #   bibendum fringilla a eu lectus.
-  # papers:
-  #   - title: The Art of Computer Programming
-  #     link: "#"
-  #     authors: Donald E. Knuth
-  #     conference: Addison-Wesley, 1968
+  papers:
+    - title: Análise comparativa de métodos de detecção automática de isquemias cardíacas.
+      link: http://hdl.handle.net/10183/101189
+      authors: Sogari, Diego
+      conference: Universidade Federal do Rio Grande do Sul. Instituto de Informática, 2014
 
 skills:
     title: Skills &amp; Proficiency
