@@ -65,45 +65,45 @@ experiences:
         time: 2020 - 2022
         company: Nelogica (Porto Alegre, Brazil)
         details: |
-          Electronic trading systems, R&D • Delphi, gRPC
-            - Enabled the integration of a legacy authentication system with recent technologies,
-              through the design and implementation of an asynchronous gRPC library for Delphi.
-            - Enabled remote risk assessment with an acceptable latency of 2ms, by leading a team of
-              three juniors in the design of a Protobuf-based protocol, collaborating via UML diagrams.
-            - Allowed two large customers to send user account communications with a reasonable
-              delay of 3s and zero failure rate, by designing and implementing a mail merge solution.
+          Electronic trading systems • Delphi, gRPC
+            - Designed and implemented an asynchronous gRPC library for Delphi, which enabled the
+              integration of a legacy service with recent technologies.
+            - Designed and implemented a mail merge solution, which allowed two large customers to
+              send user account communications with reasonable delay and zero failure rate.
             - Enabled the generation of documentation for Delphi code, by extending an open-source
-              project that converts XML docs into HTML, and integrating this tool into our CI pipelines.
+              project and integrating this tool into our CI pipelines.
       - role: Software Developer IV
         time: 2019 - 2020
         company: Nelogica (Porto Alegre, Brazil)
         details: |
           Market data (MD), Order management system (OMS) • Delphi
-            - Increased the memory usage capacity of OMS services by porting legacy code to 64-bit.
-              15% of instances eventually surpassed the longstanding 4GB limit, requiring up to 19GB.
-            - Enabled the redundancy of OMS services by implementing an egress gateway for financial
-              information exchange. 66 out of 82 production instances later required at least one replica.
-            - Improved the performance of the connection between home brokers and MD services, by
-              designing and developing a WebSocket library in Delphi with support for binary messages.
+            - Increased the memory usage capacity of backend services by porting legacy code to 64-bit,
+              which allowed production instances to surpass the 4GB limit.
+            - Implemented an egress gateway for financial information exchange, which enabled redundancy
+              of backend services, improving their reliability.
+            - Developed a WebSocket library in Delphi with support for binary messages, which improved
+              the performance of the connection between home brokers and backend services.
       - role: Software Engineer
         time: '2018'
         company: HP Inc (Porto Alegre, Brazil)
         details: |
           Remote graphics software (RGS) • C++, Qt, CUDA
-            - Fixed dozens of RGS defects, while working in a team practicing the Scrum methodology.
-              Refinement and prioritization of the product backlog were facilitated by US office leaders.
+            - Fixed dozens of RGS defects and improved documentation gereration for C++.
       - role: Software Developer II
         time: 2017 - 2018
         company: DBServer (Porto Alegre, Brazil)
         details: |
-          Automated teller machine • C++, CEN/XFS
+          Automated teller machine (ATM) • C++, CEN/XFS
+            - Developed a mock library in C++ for emulating ATM devices, which allowed the writing of
+              automated tests for the ATM software.
       - role: Software Developer II
         time: 2014 - 2017
         company: Falker (Porto Alegre, Brazil)
         details: |
           Precision agriculture system • C++, SQLite, GDAL
+            - Developed the core library of the company's software in C++.
       - role: Software Developer Intern/Junior
-        time: 2017 - 2018
+        time: 2012 - 2013
         company: Nelogica (Porto Alegre, Brazil)
         details: |
           Market data feed • Delphi, Microsoft ADO, WSDL
